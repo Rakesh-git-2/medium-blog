@@ -1,11 +1,11 @@
 {
   "root": true,
-  "project": {
-    "name": "mediumblog"
-  },
   "api": {
     "projectId": "r3r5k3p1",
     "dataset": "production"
+  },
+  "project": {
+    "name": "mediumblog"
   },
   "plugins": [
     "@sanity/base",
