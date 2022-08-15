@@ -13,6 +13,7 @@ export interface Post {
   slug: {
     current: String;
   };
+  comments: Comment[];
   body: object[];
   description: string;
   mainImage: {
