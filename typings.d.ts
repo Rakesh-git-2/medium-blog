@@ -25,3 +25,19 @@ export interface Post {
     body: [object];
   };
 }
+
+export interface Comment {
+  _id: string;
+  _createdAt: string;
+  _rev: string;
+  type: string;
+  _updatedAt: string;
+  approved: boolean;
+  comment: string;
+  email: string;
+  name: string;
+  post: {
+    _ref: string;
+    _type: string;
+  };
+}
